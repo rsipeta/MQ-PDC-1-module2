@@ -89,7 +89,7 @@
         }
 
         .main-block {
-            max-width: 700px;
+            /*max-width: 700px;*/
             padding: 0;
             padding-bottom: 45px;
         }
@@ -102,6 +102,11 @@
         .intro-text {
             line-height: 1.375;
         }
+
+        .header-logo-menu {
+            padding: 0 30px;
+        }
+
 
 
         .trends-list-item {
@@ -116,7 +121,7 @@
         } 
 
         .body-main {
-            padding: 50px 0;
+            padding: 50px 35px;
         }
 
         .post-list {
@@ -132,6 +137,7 @@
             }
 
         .post-list-img {
+            width: 100%;
             max-width: none;
             min-width: 100%;
         }
@@ -140,8 +146,17 @@
             margin-bottom: 30px;
         }
 
+        .shop-block {
+            padding: 0 35px;
+            gap: 22px;
+        }
+
         .shop-list-item {
-            width: calc(48%);
+            min-width: calc(48%);
+        }
+        .shop-list-img {
+            width: calc(100% - 40px);
+            object-fit: cover;
         }
     }
 
@@ -154,7 +169,6 @@
         }
 
         .main-block {
-            max-width: 330px;
             padding: 0;
             padding-bottom: 45px;
         }
@@ -170,6 +184,7 @@
         }
 
         .header-logo-menu {
+            padding: 0 15px;
             flex-direction: column-reverse;
             gap: 180px;
         }
@@ -198,13 +213,15 @@
             .trends-list-item {
                 width: calc(50% - 2px);
             }
-        }        
-        
+        }
+
         .body-main {
             flex-direction: column;
             padding-top: 40px;
             padding-bottom: 50px;
-            gap: 40px;
+            padding-left: 15px;
+            padding-right: 15px;
+            gap: 35px;
         }
 
         .post-list {
@@ -232,7 +249,8 @@
         }
 
         .side-bar-block {
-            width: 100%;
+            flex-grow:1;
+            width:100%;
             /*margin-right: 36px;
             grid-gap: 40px;*/
         }
@@ -244,10 +262,25 @@
 
 
 
+        .shop-block {
+            gap: 24px;
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size:15px;
+        }
+
         .shop-list-item {
             width: 100%;
         }
 
+        .shop-item-title-link{
+            font-size: 17px;
+        }
+
+        .shop-list-img {
+            width: calc(100% - 40px);
+            object-fit: cover;
+        }
 
         .socials {
             margin-bottom: 50px;

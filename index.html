@@ -105,9 +105,9 @@
                         <li><a class="trends-category-text" href="#0">Interioir</a></li>
                     </ul>
 
-                    <h2 class="trends-category-title">
+                    <h3 class="trends-category-title">
                         <a class="trends-category-title-link" href="#0">Сейчас в тренде: сад на подоконнике</a>
-                    </h2>
+                    </h3>
                 </header>
             </article>
 
@@ -117,9 +117,9 @@
                         <li><a class="trends-category-text" href="#0">Food</a></li>
                     </ul>
 
-                    <h2 class="trends-category-title">
+                    <h3 class="trends-category-title">
                         <a class="trends-category-title-link" href="#0">Cыры на красивых  картинках из интернета: какие они на вкус?</a>
-                    </h2>
+                    </h3>
                 </header>
             </article>
             
@@ -130,9 +130,9 @@
                         <li><a class="trends-category-text" href="#0">Travel</a></li>
                     </ul>
 
-                    <h2 class="trends-category-title">
+                    <h3 class="trends-category-title">
                         <a class="trends-category-title-link" href="#0">Собираемся в первый поход в горы</a>
-                    </h2>
+                    </h3>
                 </header>
             </article>
             
@@ -143,9 +143,9 @@
                         <li><a class="trends-category-text" href="#0">Health</a></li>
                     </ul>
 
-                    <h2 class="trends-category-title">
+                    <h3 class="trends-category-title">
                         <a class="trends-category-title-link" href="#0">Сейчас в тренде: сколько витамина С в лимонах?</a>
-                    </h2>
+                    </h3>
                 </header>
             </article>
         </div>
@@ -394,18 +394,28 @@
             </aside>
         </div>
 
+
         <section class="shop-block">
             <h2 class="shop-title">Наши изделия</h2>
-            
+
             <div class="shop-list">
                 <article class="shop-list-item">
                     <!--<img src="img/shop-item-desk1.jpg" alt="Фото для блока Магазин 1" class="shop-list-img " />-->
-                    <picture class="shop-list-img">
-                        <source srcset="img/shop-item-mobile1.jpg" media="(max-width: 640px)">
-                        <source srcset="img/shop-item-tablet1.jpg" media="(min-width: 641px) and (max-width: 1200px)">
-                        <source srcset="img/shop-item-desk1.jpg">
-                        <img src="img/shop-item-desk1.jpg" alt="Фото для блока Магазин 1">
-                    </picture>
+
+                    <img srcset="img/shop-item-mobile1.jpg 640w,
+                                 img/shop-item-tablet1.jpg 1200w,
+                                 img/shop-item-desk1.jpg 1600w"
+                         sizes="(max-width: 640px) 640px,
+                                (max-width: 1200px) 1200px,
+                                1600px"
+                         src="img/shop-item-desk1.jpg" alt="Фото для блока Магазин 1" class="shop-list-img">
+
+                    <!--<picture class="shop-list-img">
+                    <source srcset="img/shop-item-mobile1.jpg" media="(max-width: 640px)">
+                    <source srcset="img/shop-item-tablet1.jpg" media="(min-width: 641px) and (max-width: 1200px)">
+                    <source srcset="img/shop-item-desk1.jpg">
+                    <img src="img/shop-item-desk1.jpg" alt="Фото для блока Магазин 1">
+                </picture>-->
 
                     <div class="shop-box">
                         <h3 class="shop-item-title">
@@ -430,12 +440,20 @@
 
                 <article class="shop-list-item">
                     <!--<img src="img/shop-item-desk2.jpg" alt="Фото для блока Магазин 2" class="shop-list-img" />-->
-                    <picture class="shop-list-img">
-                        <source srcset="img/shop-item-mobile2.jpg" media="(max-width: 640px)">
-                        <source srcset="img/shop-item-tablet2.jpg" media="(min-width: 641px) and (max-width: 1200px)">
-                        <source srcset="img/shop-item-desk2.jpg">
-                        <img src="img/shop-item-desk2.jpg" alt="Фото для блока Магазин 2">
-                    </picture>
+                    <img srcset="img/shop-item-mobile2.jpg 640w,
+                                 img/shop-item-tablet2.jpg 1200w,
+                                 img/shop-item-desk2.jpg 1600w"
+                         sizes="(max-width: 640px) 640px,
+                                (max-width: 1200px) 1200px,
+                                1600px"
+                         src="img/shop-item-desk2.jpg" alt="Фото для блока Магазин 2" class="shop-list-img">
+
+                    <!--<picture class="shop-list-img">
+                    <source srcset="img/shop-item-mobile2.jpg" media="(max-width: 640px)">
+                    <source srcset="img/shop-item-tablet2.jpg" media="(min-width: 641px) and (max-width: 1200px)">
+                    <source srcset="img/shop-item-desk2.jpg">
+                    <img src="img/shop-item-desk2.jpg" alt="Фото для блока Магазин 2">
+                </picture>-->
 
                     <div class="shop-box">
                         <h3 class="shop-item-title">
@@ -461,12 +479,21 @@
 
                 <article class="shop-list-item">
                     <!--<img src="img/shop-item-desk3.jpg" alt="Фото для блока Магазин 3" class="shop-list-img" />-->
-                    <picture class="shop-list-img">
-                        <source srcset="img/shop-item-mobile3.jpg" media="(max-width: 640px)">
-                        <source srcset="img/shop-item-tablet3.jpg" media="(min-width: 641px) and (max-width: 1200px)">
-                        <source srcset="img/shop-item-desk3.jpg">
-                        <img src="img/shop-item-desk3.jpg" alt="Фото для блока Магазин 3">
-                    </picture>
+
+                    <img srcset="img/shop-item-mobile3.jpg 640w,
+                                 img/shop-item-tablet3.jpg 1200w,
+                                 img/shop-item-desk3.jpg 1600w"
+                         sizes="(max-width: 640px) 640px,
+                                (max-width: 1200px) 1200px,
+                                1600px"
+                         src="img/shop-item-desk3.jpg" alt="Фото для блока Магазин 3" class="shop-list-img">
+
+                    <!--<picture class="shop-list-img">
+                    <source srcset="img/shop-item-mobile3.jpg" media="(max-width: 640px)">
+                    <source srcset="img/shop-item-tablet3.jpg" media="(min-width: 641px) and (max-width: 1200px)">
+                    <source srcset="img/shop-item-desk3.jpg">
+                    <img src="img/shop-item-desk3.jpg" alt="Фото для блока Магазин 3">
+                </picture>-->
 
                     <div class="shop-box">
                         <h3 class="shop-item-title">
