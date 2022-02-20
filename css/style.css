@@ -526,6 +526,7 @@ body {
     height: 1px;
     clip: rect(1px, 1px, 1px, 1px);
     position: absolute;
+    display: block;
 }
 
 .footer {
@@ -698,8 +699,14 @@ body {
 
 }
 
+
+
+.shop-list-img-picture {
+    width: calc(100% - 40px);
+    object-fit: cover;
+}
 .shop-list-img {
-    width: 87%;
+    width: 100%;
 }
 
 
@@ -802,7 +809,7 @@ body {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.75);
     position: fixed;
-    overflow-y: auto;
+    /*overflow-y: auto;*/
     position: fixed;
     top: 0;
     left: 0;
