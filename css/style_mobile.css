@@ -224,8 +224,7 @@
         }
 
         .post-list-item {
-            /*background-color: yellow;
-            width: 100%;*/
+            min-width: 100%;
         }
 
         .frame-category-title-link, .side-bar-title {
